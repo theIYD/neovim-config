@@ -35,6 +35,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 -- Navigate buffers
 keymap.set("n", "<S-l>", ":bnext<CR>")
 keymap.set("n", "<S-h>", ":bprevious<CR>")
+keymap.set("n", "<S-x>", ":bdelete<CR>")
 
 ----------------------
 -- Plugin Keybinds
